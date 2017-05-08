@@ -1,1 +1,10 @@
+## C++
+* Namespaces provide a method for preventing name conflicts in large projects.
+* Symbols declared inside a namespace block are placed in a named scope that prevents them from being mistaken for identically-named symbols in other scopes.
+  Multiple namespace blocks with the same name are allowed. All declarations within those blocks are declared in the named scope.
 
+## JAVA
+* Java doesn't use this term but there is similar concept which is used Java which is called packages.
+* Packages are used to organize files or public types to avoid 
+  type conflicts. 
+* Package constructs can be mapped to a file system.
