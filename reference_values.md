@@ -18,3 +18,14 @@
 
 * value：
   Our mantra is “codes like a class, works like an int.” Of course, the devil is in the details; there are going to be features of classes that do not make sense for value types. Some questions we might want to ask about value classes are as follows, with tentative answers where appropriate. Where a comparison with primitives would make sense, the answers for these questions for values are the same as they would be for primitives.
+
+## Compared:
+In C++ I can do something like this...
+
+String s = "abc";
+char c = s[i]; // works fine...
+But in Java, if I try doing the same, it throws an error. Why?.
+
+In java, to achieve the above, I have to do :
+
+s.toCharArray(); 
