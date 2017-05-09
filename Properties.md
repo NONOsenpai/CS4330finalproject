@@ -1,5 +1,6 @@
 ## Java
 * getter and setter
+```java
 package greetings;
 
 import javax.inject.Inject;
@@ -31,7 +32,7 @@ public class Printer {
        return name;
     }
 }
-
+```
 ## C++
 * C++ was designed to provide Simula’s facilities for program organization together with C’s efficiency and flexibility for systems programming. It was intended to deliver that to real projects within half a year of the idea. It succeeded.
 * C++ emphasis on speed
