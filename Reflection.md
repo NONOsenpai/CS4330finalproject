@@ -6,7 +6,7 @@ One tangible use of reflection is in JavaBeans, where software components can be
 
 A Simple Example
 To see how reflection works, consider this simple example:
-```
+```java
 import java.lang.reflect.*;
  
    public class DumpMethods {
@@ -25,7 +25,7 @@ import java.lang.reflect.*;
    }
    ```
 For an invocation of:
-
+```java
   java DumpMethods java.util.Stack 
 the output is:
 
@@ -38,7 +38,7 @@ the output is:
    public boolean java.util.Stack.empty()
    public synchronized 
      int java.util.Stack.search(java.lang.Object)
- 
+ ```
 That is, the method names of class java.util.Stack are listed, along with their fully qualified parameter and return types.
 
 This program loads the specified class using class.forName, and then calls getDeclaredMethods to retrieve the list of methods defined in the class. java.lang.reflect.Method is a class representing a single class method.
