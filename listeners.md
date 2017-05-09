@@ -1,5 +1,6 @@
 ## JAVA
 * example
+```java
 public class MultiListener ... implements ActionListener {
     ...
     //where initialization occurs:
@@ -29,7 +30,9 @@ public class Beeper ... implements ActionListener {
         ...//Make a beep sound...
     }
 }
+```
 ## C++
+```C++
 * #include <functional>
 #include <list>
 
@@ -66,6 +69,8 @@ template <typename ... Args> struct event:public std::shared_ptr<std::list<std::
       other.the_event.reset();
       return *this;
     }
+    ```
+    ```C++
     #include <iostream>
 
 using click_event = event<float,float>;
@@ -95,3 +100,4 @@ int main(int argc, char **argv) {
   A.mouse_down(2, 0);
   B.mouse_down(0, 2);
 }
+```
