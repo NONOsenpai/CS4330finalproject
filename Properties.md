@@ -1,6 +1,5 @@
 ## Java
 * getter and setter
-```java
 package greetings;
 
 import javax.inject.Inject;
@@ -32,9 +31,41 @@ public class Printer {
        return name;
     }
 }
-```
-## C++
-* C++ was designed to provide Simula’s facilities for program organization together with C’s efficiency and flexibility for systems programming. It was intended to deliver that to real projects within half a year of the idea. It succeeded.
-* C++ emphasis on speed
-* c++ was developed from c
 
+## C++
+* class Employee
+{
+ int id;
+//..
+};
+As setter of this class looks as follows:
+
+ 
+class Employee
+{
+public:
+ void set_id(int n) {id=n;}
+};
+A classic getter returns a value and takes no arguments; it's declared as a const member function to document the fact that it only observes an object's state but doesn't change it. For example:
+
+ 
+class Employee
+{
+public:
+ int get_id() const { return id;}
+};
+
+if (not_div_by_0)
+{
+    x1 = (a*a + b*b) / (x*x - 2*(y1*y1 + y2*y2) + y*y);
+}
+// other statements required before computing x2 and x3
+if (not_div_by_0)
+{
+    x2 = (a*a - c*c) / (x*x - 2*(y1*y1 + y2*y2) + y*y);
+}
+// other statements required before computing x3
+if (not_div_by_0)
+{
+    x3 = (2*a*a + 3*b*b) / (x*x - 2*(y1*y1 + y2*y2) + y*y);
+}
