@@ -1,7 +1,7 @@
 ## Java
 * getter and setter
 package greetings;
-
+```java
 import javax.inject.Inject;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
@@ -31,9 +31,10 @@ public class Printer {
        return name;
     }
 }
-
+```
 ## C++
-* class Employee
+```C++
+ class Employee
 {
  int id;
 //..
@@ -69,3 +70,4 @@ if (not_div_by_0)
 {
     x3 = (2*a*a + 3*b*b) / (x*x - 2*(y1*y1 + y2*y2) + y*y);
 }
+```
