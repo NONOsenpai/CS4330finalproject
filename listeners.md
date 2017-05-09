@@ -70,6 +70,7 @@ template <typename ... Args> struct event:public std::shared_ptr<std::list<std::
       return *this;
     }
     ```
+    * Another example
     ```C++
     #include <iostream>
 
